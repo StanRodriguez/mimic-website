@@ -1,0 +1,72 @@
+body{
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	letter-spacing: 1.1px;
+
+}
+#wrapper{
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+}
+
+#heading{
+	padding-top: 15%;
+	font-weight: 900;
+	text-align: center;
+	font-size: 22px;
+	line-height: 25px;
+	padding-bottom: 21px;
+}
+.one{
+	background-color:  #ffc41a;
+}
+.grid{
+	font-family: 'Quebec serial', sans-serif;
+	letter-spacing: 1.1px;
+	transition: background-color 200ms ease-in-out;
+}
+.info{
+	padding: 20px;
+}
+.subheading{
+	text-align: left;
+	padding-top: 10px;
+	font-size: 16px;
+}
+hr{
+	background-color: #fff;
+}
+.lighter{
+	font-weight: 100;
+}
+.two{
+	background-color: #ff7b0f;
+}
+img{
+    vertical-align: middle;
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.three{
+	background-color: #ea4335;
+}
+.four{
+	background-color: #75bd3f;
+}
+.five{
+	background-color: #0092ff;
+}
+.six{
+	background-color: #7d4297;
+}
+
+.grid:hover{
+	background-color: #303030;
+	transition: 200ms ease-in-out;
+}
